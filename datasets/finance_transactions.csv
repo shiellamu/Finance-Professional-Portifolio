@@ -1,0 +1,17 @@
+date,department,category,description,amount,type
+2026-01-05,Sales,Revenue,Product sales,12500,Income
+2026-01-12,Sales,Revenue,Product sales,14300,Income
+2026-01-18,Operations,Utilities,Electricity,1850,Expense
+2026-01-23,Operations,Payroll,Temporary staff,4200,Expense
+2026-02-04,Sales,Revenue,Product sales,15100,Income
+2026-02-11,Marketing,Marketing,Digital campaign,2300,Expense
+2026-02-17,Sales,Revenue,Service income,8200,Income
+2026-02-24,Operations,Inventory,Materials,5100,Expense
+2026-03-03,Sales,Revenue,Product sales,16800,Income
+2026-03-10,Operations,Payroll,Temporary staff,4600,Expense
+2026-03-18,Marketing,Marketing,Digital campaign,2600,Expense
+2026-03-25,Sales,Revenue,Service income,9100,Income
+2026-04-02,Operations,Utilities,Electricity,1920,Expense
+2026-04-09,Sales,Revenue,Product sales,17400,Income
+2026-04-16,Operations,Inventory,Materials,5500,Expense
+2026-04-24,Marketing,Marketing,Digital campaign,2800,Expense
