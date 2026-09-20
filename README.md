@@ -1,31 +1,48 @@
 # Shiella Mudzingwa — Finance Professional Portfolio
 
-Welcome to my professional portfolio. I am building this repository to showcase practical skills in accounting, finance, financial analysis, data analysis, and business reporting.
+Welcome to my professional portfolio. This repository is a practical showcase of accounting, finance, financial analysis, data analysis, and business reporting skills.
+
+> **Portfolio note:** The datasets and worked examples currently in this repository are fictional practice materials. They are placeholders for portfolio development. As I build my professional profile, I can replace them with my own projects, analyses, dashboards, certificates, and approved real-world case studies.
 
 ## About Me
 
-I am a finance and accounting professional developing a practical portfolio that demonstrates accuracy, analytical thinking, financial reporting, and data-driven decision making.
+I am a finance and accounting professional developing a practical portfolio that demonstrates accuracy, analytical thinking, financial reporting, data-driven decision making, and continuous learning.
 
 ## Core Skills
 
 - Financial accounting and reporting
-- Bookkeeping and reconciliations
+- Bookkeeping and bank reconciliations
 - Budgeting and variance analysis
-- Financial modelling
-- Excel and spreadsheet analysis
+- Financial statement analysis
+- Excel and spreadsheet modelling
 - Data analysis and visualization
 - Management reporting
 - Python for finance and data analysis
 
 ## Portfolio Projects
 
-| Project | Description | Tools |
+| Project | What it demonstrates | Tools |
 |---|---|---|
-| Financial Statement Analysis | Analysis of financial performance, profitability, liquidity and trends | Excel |
-| Budget & Variance Analysis | Budget-to-actual analysis with management insights | Excel |
-| Bank Reconciliation | Practical reconciliation workflow and exception review | Excel |
-| Finance Data Analysis | Cleaning, analysing and visualising financial data | Python, Pandas |
-| Financial Dashboard | Interactive KPI and management reporting dashboard | Excel |
+| Financial Statement Analysis | Profitability, liquidity, margins, ratios and trend analysis | Excel |
+| Budget & Variance Analysis | Budget-to-actual analysis and management commentary | Excel |
+| Bank Reconciliation | Reconciliation controls, exception identification and adjustments | Excel |
+| Finance Data Analysis | Data cleaning, aggregation, KPIs and visualisation | Python, Pandas, Matplotlib |
+| Financial Dashboard | KPI reporting and interactive management visuals | Excel |
+
+## How to Use This Portfolio
+
+The sample datasets are intentionally fictional so they can be used safely for practice. The project folders provide a starting point, formulas, questions, documentation guidance and expected deliverables.
+
+When developing each project, I should:
+
+1. Work through the calculations myself.
+2. Validate the results.
+3. Build the Excel/Python outputs.
+4. Write my own business interpretation.
+5. Save the completed work in the appropriate project folder.
+6. Replace sample content with my own work as my portfolio grows.
+
+AI can be used as a learning assistant, but the final analysis, calculations, interpretation and professional presentation should reflect my own work.
 
 ## Repository Structure
 
@@ -45,7 +62,7 @@ Finance-Professional-Portifolio/
 
 ## Contact
 
-GitHub: [@shiellamu](https://github.com/shiellamu)
+GitHub: https://github.com/shiellamu
 
 ---
 
