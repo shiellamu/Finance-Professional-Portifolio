@@ -1,0 +1,22 @@
+[
+  {
+    "name": "certificates",
+    "readme": "certificates/README.md"
+  },
+  {
+    "name": "dashboards",
+    "readme": "dashboards/README.md"
+  },
+  {
+    "name": "datasets",
+    "readme": null
+  },
+  {
+    "name": "projects",
+    "readme": null
+  },
+  {
+    "name": "reports",
+    "readme": "reports/README.md"
+  }
+]
