@@ -1,20 +1,36 @@
 # Certificates & Professional Development
 
-A curated record of professional qualifications, certifications and relevant training.
+This section records professional qualifications and training that are appropriate for public presentation.
 
-## Verified credentials
+## Verified professional credentials
 
-- ACCA Member — Chartered accounting qualification
-- Master of Business Administration (Accounting) — National University of Science and Technology
-- Bachelor of Accountancy — Midlands State University
+- **ACCA Member** — Chartered accounting qualification
+- **Master of Business Administration (Accounting)** — National University of Science and Technology
+- **Bachelor of Accountancy** — Midlands State University
 
-## Professional training
+## Professional development
 
 - Operations Analytics
 - Customer Analytics
 - Lessons in Enlightened Leadership
 - Microsoft 365 / Office 365 Essential Training
 
-## Publishing standard
+## Certificate publishing standard
 
-Only upload certificates that are authentic, appropriate for public sharing and free of unnecessary personal identifiers. Where a credential cannot be publicly verified, describe it factually rather than implying external verification.
+Only authentic certificates that are appropriate for public sharing should be uploaded.
+
+Before publication, remove or redact unnecessary personal identifiers such as certificate numbers, addresses, signatures, QR codes or other information that could enable misuse.
+
+Where a credential cannot be independently verified from a public source, this portfolio will describe it factually and will not imply external verification.
+
+## Recommended file naming
+
+Use:
+
+`YYYY_Provider_Certificate-Name.pdf`
+
+Example:
+
+`2026_ACCA_Professional-Certificate.pdf`
+
+Keep the original certificate files in this folder only when you are comfortable making them public.
