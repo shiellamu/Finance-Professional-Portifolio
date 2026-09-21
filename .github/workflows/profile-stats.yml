@@ -1,0 +1,13 @@
+name: Profile Stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 6 * * 1'
+permissions:
+  contents: read
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/profile_stats.py
