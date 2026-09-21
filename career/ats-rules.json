@@ -1,0 +1,5 @@
+{
+  "document":{"max_pages":2,"preferred_font":"Times New Roman","body_size":12,"single_column":true,"tables_for_layout":false,"images_for_text":false},
+  "content":{"use_job_description_keywords_when_supported":true,"never_add_unverified_claims":true,"preserve_verified_employer_names":true,"preserve_verified_qualifications":true,"quantify_only_when_source_evidence_exists":true},
+  "checks":["keyword_coverage","section_presence","contact_consistency","date_consistency","unsupported_claims","readability","file_format"]
+}
