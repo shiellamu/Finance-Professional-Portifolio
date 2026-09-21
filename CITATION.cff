@@ -1,11 +1,10 @@
 cff-version: 1.2.0
 title: "Shiella Mudzingwa Finance Professional Portfolio"
-message: "If you reference or reuse this portfolio, please contact the author for permission."
-type: software
 authors:
-  - family-names: Mudzingwa
-    given-names: Shiella
+  - family-names: "Mudzingwa"
+    given-names: "Shiella"
+date-released: 2026-09-21
+version: "1.0"
 repository-code: "https://github.com/shiellamu/Finance-Professional-Portifolio"
-url: "https://shiellamu.github.io/Finance-Professional-Portifolio/"
-license: "LicenseRef-All-Rights-Reserved"
-year: 2026
+license: "All rights reserved"
+message: "If you reference this portfolio or its original work, please credit Shiella Mudzingwa and link to the repository."
