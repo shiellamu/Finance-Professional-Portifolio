@@ -13,4 +13,6 @@ jobs:
       - name: Secret-pattern scan
         run: |
           set -e
-          ! grep -RInE 'AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9_]{20,}|BEGIN .*PRIVATE KEY' . --exclude-dir=.git
+          # Scan repository content while excluding this workflow, which necessarily contains
+          # the literal detection patterns used by the scanner itself.
+          ! grep -RInE 'AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9_]{20,}|BEGIN .*PRIVATE KEY' .             --exclude-dir=.git             --exclude='security-scan.yml'
