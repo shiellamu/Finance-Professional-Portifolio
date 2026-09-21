@@ -1,0 +1,14 @@
+name: Career Preparation
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 8 * * 1'
+permissions:
+  contents: read
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/interview_pack.py
+      - run: python scripts/tailoring_brief.py
