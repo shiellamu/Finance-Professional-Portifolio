@@ -1,0 +1,16 @@
+name: Security Scan
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Secret-pattern scan
+        run: |
+          set -e
+          ! grep -RInE 'AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9_]{20,}|BEGIN .*PRIVATE KEY' . --exclude-dir=.git
