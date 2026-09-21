@@ -1,15 +1,23 @@
 # Finance Dashboards
 
-A gallery of public-safe finance dashboards and management reporting examples.
+The dashboard layer is defined around four reproducible portfolio cases:
 
-## Dashboard themes
+1. **Financial Performance** — revenue, profit, margins, liquidity and ROE.
+2. **Budget vs Actual** — monthly budget, actuals, variances and contribution.
+3. **Finance Transactions** — income, expenses, contribution and spending mix.
+4. **Bank Reconciliation** — matched transactions, timing differences and bank-only exceptions.
 
-1. **Budget vs Actual** — planned versus actual expenditure and variance drivers
-2. **Cash Flow** — cash position, movements and monitoring indicators
-3. **Expense Analysis** — spending trends, categories and cost drivers
-4. **Financial Performance** — revenue, expenses, contribution and key ratios
-5. **Grant Monitoring** — budget utilisation and compliance-oriented indicators
+## Public-safe publishing standard
 
-## Publishing standard
+Use the repository's fictional datasets only unless a real dataset is explicitly approved for public publication.
 
-Use fictional, anonymised or public datasets only. Each dashboard should include a short explanation of its purpose, data source, key KPIs and major insights.
+Each dashboard should show:
+
+- Business question
+- Data source
+- KPI definitions
+- Key visuals
+- Material findings
+- Limitations
+
+The Excel workbook provides the first finished dashboard-ready evidence layer.
