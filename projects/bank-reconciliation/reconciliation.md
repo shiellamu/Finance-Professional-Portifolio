@@ -1,61 +1,35 @@
-# Bank Reconciliation
+# Bank Reconciliation — Control Review
 
-**Status: Practice project — all figures are fictional.**
+**Status:** Fictional practice case.
 
-Use `datasets/bank_reconciliation.csv` to practise transaction matching, exception identification and reconciliation controls.
+## Transaction review
 
-## Objective
+The supplied dataset contains:
 
-Reconcile book transactions to the bank statement, identify unmatched items, determine which items require cashbook adjustments, and document the final reconciliation.
+- 5 matched transactions
+- 1 deposit in transit of 3,200
+- 2 outstanding cheques totalling 3,080
+- 1 bank charge of 85
+- 1 bank interest item of 42
 
-## Process
+## Important control finding
 
-1. Review the book and bank amounts.
-2. Match transactions using references and amounts.
-3. Identify timing differences.
-4. Identify bank-only transactions.
-5. Determine which items should be recorded in the cashbook.
-6. Calculate the adjusted book balance.
-7. Calculate the adjusted bank balance.
-8. Confirm that the adjusted balances agree.
-9. Document all reconciling items and proposed actions.
+The supplied transaction-level dataset does **not** contain enough information to produce a balanced final reconciliation statement.
 
-## Excel Classification Formula
+The bank-side and book-side transaction totals do not reconcile after applying the listed exceptions. This is itself a useful control-testing outcome: the reconciliation should not be forced to balance.
 
-You can use this as a starting point and test it against the data:
+## Recommended treatment workflow
 
-`=IF(C2=D2,"Matched",IF(AND(C2>0,D2=0),"Timing difference","Bank-only transaction"))`
+1. Confirm the opening book and bank balances.
+2. Trace every unmatched reference to supporting documentation.
+3. Post confirmed bank charges and interest to the cashbook.
+4. Confirm the cut-off status of the deposit in transit.
+5. Confirm the validity and status of outstanding cheques.
+6. Investigate the residual difference before sign-off.
+7. Retain evidence of preparation and independent review.
 
-Improve the classification if your analysis identifies cases that need more specific treatment.
+## Portfolio value
 
-## Your Tasks
+This case demonstrates that a good reconciliation is not simply a matching exercise. It should also identify unresolved differences and prevent unsupported adjustments from being used to make a schedule appear balanced.
 
-- Build a transaction-matching worksheet.
-- Identify every unmatched transaction.
-- Separate timing differences from bank-only items.
-- Calculate the total value of outstanding deposits.
-- Calculate the total value of outstanding cheques.
-- Calculate bank charges and bank interest requiring cashbook treatment.
-- Prepare the reconciliation statement.
-- Write a short control commentary explaining how the reconciliation reduces cash-management risk.
-
-## Sample Exceptions
-
-The fictional dataset includes examples such as:
-
-- Deposit in transit
-- Bank charge
-- Outstanding cheque
-- Bank interest
-
-These are practice cases. Recalculate and verify the amounts yourself.
-
-## Final Portfolio Deliverables
-
-- Completed Excel reconciliation
-- Reconciliation statement
-- Exception log
-- Proposed cashbook adjustments
-- Short controls commentary
-
-**Replace this fictional case with an approved real-world reconciliation example when appropriate.**
+> All figures are fictional and should not be treated as an actual bank reconciliation.
