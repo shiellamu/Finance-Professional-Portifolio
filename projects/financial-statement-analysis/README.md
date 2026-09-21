@@ -1,15 +1,22 @@
 # Financial Statement Analysis
 
-A practical project analysing income statement and balance sheet data.
+**Status:** Practice portfolio project using public-safe / fictional data.
 
-## Objectives
-- Calculate key financial ratios
-- Identify revenue and expense trends
-- Assess profitability and liquidity
-- Present findings in a management-friendly format
+## Purpose
+Analyse income statement and balance sheet information to produce decision-useful financial insights.
 
-## Planned Deliverables
-- Excel analysis workbook
+## Skills demonstrated
 - Ratio analysis
-- Trend charts
-- Executive summary
+- Profitability and liquidity analysis
+- Trend analysis
+- Management commentary
+- Financial presentation
+
+## Deliverables
+- Analysis workbook
+- Ratio summary
+- Trend visualisations
+- Executive commentary
+
+## Related dataset
+See `datasets/financial_statements.csv`.
