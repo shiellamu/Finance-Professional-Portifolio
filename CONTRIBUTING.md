@@ -1,9 +1,9 @@
-# Portfolio Contribution Policy
+# Contributing
 
-This is a professional portfolio owned and maintained by Shiella Mudzingwa.
+This is a professional portfolio rather than an open-source project accepting unrestricted contributions.
 
-The repository is not an open-source project and does not accept unsolicited modifications to portfolio content.
+Suggestions, corrections and collaboration proposals are welcome through GitHub issues or direct contact. Please do not submit confidential employer, donor, partner or personal information.
 
-If you identify a factual, accessibility or security issue, please contact **shiellamu@gmail.com** before proposing changes.
+Before proposing changes, review `COPYRIGHT.md` and `SECURITY.md`.
 
-Do not submit confidential information, personal data, employer information, donor information, credentials or secrets through issues or pull requests.
+For professional collaboration: **shiellamu@gmail.com**.
