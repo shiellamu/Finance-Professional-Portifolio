@@ -1,36 +1,40 @@
 # Certificates & Professional Development
 
-This section records professional qualifications and training that are appropriate for public presentation.
+A curated record of professional qualifications, certifications and relevant training.
 
-## Verified professional credentials
+## Credential evidence
 
-- **ACCA Member** — Chartered accounting qualification
-- **Master of Business Administration (Accounting)** — National University of Science and Technology
-- **Bachelor of Accountancy** — Midlands State University
+Only authentic certificates and credential evidence belonging to Shiella Mudzingwa should be published here.
 
-## Professional development
+**Current professional credentials**
+- ACCA Member — Chartered accounting qualification
+- Master of Business Administration (Accounting) — National University of Science and Technology
+- Bachelor of Accountancy — Midlands State University
 
+**Professional training already documented**
 - Operations Analytics
 - Customer Analytics
 - Lessons in Enlightened Leadership
 - Microsoft 365 / Office 365 Essential Training
 
-## Certificate publishing standard
+## Public publishing standard
 
-Only authentic certificates that are appropriate for public sharing should be uploaded.
+Before publishing a certificate:
+- remove unnecessary ID numbers, signatures, addresses, QR codes and other sensitive identifiers;
+- publish only genuine documents;
+- use a clear filename and issue date where appropriate;
+- do not claim external verification unless it has actually been completed;
+- never upload another person's certificate.
 
-Before publication, remove or redact unnecessary personal identifiers such as certificate numbers, addresses, signatures, QR codes or other information that could enable misuse.
+## Recommended structure
 
-Where a credential cannot be independently verified from a public source, this portfolio will describe it factually and will not imply external verification.
+`certificates/
+├── professional/
+├── analytics/
+├── leadership/
+└── technology/
+`
 
-## Recommended file naming
+## Copyright & authenticity
 
-Use:
-
-`YYYY_Provider_Certificate-Name.pdf`
-
-Example:
-
-`2026_ACCA_Professional-Certificate.pdf`
-
-Keep the original certificate files in this folder only when you are comfortable making them public.
+Certificate files are evidence of credentials, not templates for alteration or reuse. Portfolio design and accompanying original descriptions remain protected by the repository's copyright policy.
