@@ -1,54 +1,65 @@
 # Finance Data Analysis
 
-**Status: Practice project — all figures are fictional.**
+**Portfolio project · Practice case · Fictional data**
 
-A Python project focused on transforming transaction-level finance data into useful business insights.
+## Business question
 
-## Tools
+What patterns in transaction-level finance data can be surfaced through structured data preparation, aggregation and visualisation?
 
-- Python
-- Pandas
-- Matplotlib
+## Dataset
 
-## Objectives
+Source: `datasets/finance_transactions.csv`
 
-- Clean and validate financial datasets
-- Analyse monthly income and expenses
-- Calculate contribution and KPIs
-- Create clear visualisations
-- Communicate findings in business language
+The dataset contains transaction-level records with dates, departments, categories, descriptions, amounts and transaction types.
 
-## Your Workflow
+> **Public-safe note:** all figures are fictional and are provided for portfolio practice.
 
-1. Load `datasets/finance_transactions.csv`.
-2. Inspect the columns and data types.
-3. Check for missing, duplicated or invalid records.
-4. Convert dates and amounts to appropriate data types.
-5. Create a month field.
-6. Aggregate income and expenses by month.
-7. Calculate monthly contribution.
-8. Create at least one meaningful visualisation.
-9. Export a summary CSV.
-10. Write a short interpretation of the results.
+## Analysis scope
 
-## Suggested Questions
+Use Python/pandas to:
 
-- What is the monthly income trend?
-- What are the largest expense categories?
-- Which department contributes the most spending?
-- How does contribution change over time?
-- What additional data would improve the analysis?
+- Load and validate the data
+- Inspect data types, missing values and duplicates
+- Convert amounts to numeric
+- Create a month field
+- Aggregate income and expenses by month
+- Calculate monthly contribution
+- Analyse expenses by department and category
+- Identify useful management questions
+- Export a clean summary dataset
+- Create at least one decision-useful chart
 
-## Important
+## Python workflow
 
-The Python file in this folder is a starting point, not a substitute for learning the analysis. Complete the TODOs, run the script yourself, inspect the output, and explain the results in your own words.
+The companion script is:
 
-## Portfolio Deliverables
+`analysis.py`
 
-- Completed Python script
-- Exported summary dataset
-- At least one chart
-- Short analysis/report
-- README documenting the approach and findings
+It intentionally contains guided TODOs so the portfolio demonstrates your own analytical work rather than presenting a black-box result.
 
-**Replace the fictional dataset with your own or an approved dataset as your portfolio develops.**
+## Required portfolio evidence
+
+1. Completed Python script
+2. Clean monthly summary CSV
+3. At least one saved chart
+4. Short findings note
+5. Data-quality checks
+6. Methodology and limitations
+
+## Suggested outputs
+
+- Monthly income vs expense trend
+- Monthly contribution
+- Expense by department
+- Expense by category
+- Transaction count and value checks
+
+## Skills demonstrated
+
+Python · pandas · Data validation · Aggregation · Financial analysis · Data visualisation · Management insight
+
+## Limitations
+
+The dataset is small and synthetic. It does not represent a complete general ledger, chart of accounts or production finance system. Findings should be treated as analytical practice rather than operational conclusions.
+
+**Next step:** complete the TODOs in `analysis.py`, validate the outputs, and document your own findings.
