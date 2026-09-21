@@ -1,28 +1,30 @@
 # Excel Finance Portfolio
 
-## Completed workbook
+A public-safe Excel portfolio covering practical finance analysis and reporting.
 
-A public-safe Excel workbook has been prepared covering the four flagship finance cases:
-
-**[Download the Excel portfolio workbook](sandbox:/mnt/data/Shiella_Mudzingwa_Finance_Portfolio.xlsx)**
-
-The workbook contains:
+## Workbook coverage
 
 - Executive Summary
-- Financial Statements analysis
-- Budget vs Actual analysis
+- Financial Statements Analysis
+- Budget vs Actual
 - Bank Reconciliation
 - Transaction-level Finance Data
 - Monthly Finance Summary
-- Revenue and net-profit trend chart
 - KPI calculations and management-ready summaries
 
-### Evidence standard
+## Repository standard
 
-The workbook uses only the fictional datasets already stored in this repository. It does not contain confidential employer, donor, partner or country-program information.
+The Excel portfolio is maintained as part of this repository. Any future workbook published here must use only fictional, anonymised or otherwise approved public-safe data.
 
-### Workbook structure
+Do not publish confidential employer, donor, partner, client or personally identifiable information.
 
-`Executive Summary` → `Financial Statements` → `Budget vs Actual` → `Bank Reconciliation` → `Transactions` → `Monthly Finance Summary`
+## Recommended structure
 
-The workbook is a portfolio demonstration and should not be represented as an actual employer deliverable.
+`excel/
+├── models/
+├── dashboards/
+├── analysis/
+└── README.md
+`
+
+For the complete portfolio website and project index, visit the live portfolio from the repository README.
