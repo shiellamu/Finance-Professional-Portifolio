@@ -1,69 +1,90 @@
 # Shiella Mudzingwa — Finance Professional Portfolio
 
-Welcome to my professional portfolio. This repository is a practical showcase of accounting, finance, financial analysis, data analysis, and business reporting skills.
+## Accountant HQ | ACCA Member | MBA | NGO Finance & Donor Compliance
 
-> **Portfolio note:** The datasets and worked examples currently in this repository are fictional practice materials. They are placeholders for portfolio development. As I build my professional profile, I can replace them with my own projects, analyses, dashboards, certificates, and approved real-world case studies.
+Welcome to my professional portfolio. I am a finance professional based in Harare, Zimbabwe, with over 10 years of progressive experience supporting international NGOs and donor-funded programs.
 
-## About Me
+I currently serve as an Accountant HQ at the Clinton Health Access Initiative (CHAI), providing financial oversight, reporting and analytical support across country programs.
 
-I am a finance and accounting professional developing a practical portfolio that demonstrates accuracy, analytical thinking, financial reporting, data-driven decision making, and continuous learning.
+## Professional Focus
+
+- Financial management and reporting
+- Grant management and donor compliance
+- Budget monitoring and variance analysis
+- Month-end close and intercompany reconciliations
+- Audit preparation and coordination
+- Internal controls and financial process improvement
+- Financial analysis and management decision support
+- Multi-country NGO finance operations
+
+## Experience
+
+### Clinton Health Access Initiative (CHAI)
+**Accountant HQ — September 2020–Present**
+- Financial oversight and reporting support for multiple country programs
+- Monthly balance-sheet and intercompany reconciliations
+- Financial reporting and budget-versus-actual analysis
+- Month-end close and compliance support
+- Internal and external audit preparation
+- Review of accounting documentation and donor compliance
+- Cash reporting, fixed assets and journal entries
+- Finance capacity building and cross-functional partnership
+
+**Finance Analyst — January 2016–September 2020**
+- Management reporting and budget-versus-actual analysis
+- Budget development and financial performance monitoring
+- Finance policy and procedure support
+- Payment processing and cash management
+- Audit support and query resolution
+- Supervision of finance assistants
+- Support for an online payment workflow system
+
+### World Education
+**Grants Officer / Grants Assistant — August 2013–December 2015**
+- Managed grants for implementing partners
+- Cash projections and partner financial reviews
+- Pre-award assessments and budget reviews
+- Financial compliance and audit support
+- Finance training and partner capacity building
+
+### KFM Consultants
+**Financial Management Consultant — July 2010–April 2012**
+- Financial management training
+- Systems reviews
+- Finance manual preparation
+
+## Education & Credentials
+
+- **ACCA — Chartered Certified Accountant / ACCA Member**
+- **Master of Business Administration, Accounting** — National University of Science and Technology
+- **Bachelor of Accountancy** — Midlands State University
 
 ## Core Skills
 
-- Financial accounting and reporting
-- Bookkeeping and bank reconciliations
-- Budgeting and variance analysis
-- Financial statement analysis
-- Excel and spreadsheet modelling
-- Data analysis and visualization
-- Management reporting
-- Python for finance and data analysis
+`Financial Management` `Grant Management` `Donor Compliance` `Financial Reporting` `Budget Analysis` `Audit Coordination` `Internal Controls` `Intercompany Reconciliations` `Excel` `Operations Analytics` `Customer Analytics`
 
 ## Portfolio Projects
 
-| Project | What it demonstrates | Tools |
+| Project | Focus | Tools |
 |---|---|---|
-| Financial Statement Analysis | Profitability, liquidity, margins, ratios and trend analysis | Excel |
+| Financial Statement Analysis | Ratios, trends, profitability and liquidity | Excel |
 | Budget & Variance Analysis | Budget-to-actual analysis and management commentary | Excel |
-| Bank Reconciliation | Reconciliation controls, exception identification and adjustments | Excel |
-| Finance Data Analysis | Data cleaning, aggregation, KPIs and visualisation | Python, Pandas, Matplotlib |
-| Financial Dashboard | KPI reporting and interactive management visuals | Excel |
+| Bank Reconciliation | Reconciliation controls and exception analysis | Excel |
+| Finance Data Analysis | Data cleaning, KPIs and visualization | Python, Pandas, Matplotlib |
+| Financial Dashboard | Management KPI reporting | Excel / Power BI |
 
-## How to Use This Portfolio
+> Portfolio examples should use fictional, anonymized or publicly available data. Confidential employer, donor, partner and country-program information should never be uploaded.
 
-The sample datasets are intentionally fictional so they can be used safely for practice. The project folders provide a starting point, formulas, questions, documentation guidance and expected deliverables.
+## Professional Links
 
-When developing each project, I should:
+- **LinkedIn:** https://www.linkedin.com/in/shiella-mudzingwa
+- **GitHub:** https://github.com/shiellamu
+- **Email:** shiellamu@gmail.com
 
-1. Work through the calculations myself.
-2. Validate the results.
-3. Build the Excel/Python outputs.
-4. Write my own business interpretation.
-5. Save the completed work in the appropriate project folder.
-6. Replace sample content with my own work as my portfolio grows.
+## Portfolio Website
 
-AI can be used as a learning assistant, but the final analysis, calculations, interpretation and professional presentation should reflect my own work.
-
-## Repository Structure
-
-```
-Finance-Professional-Portifolio/
-├── README.md
-├── projects/
-│   ├── financial-statement-analysis/
-│   ├── budget-variance-analysis/
-│   ├── bank-reconciliation/
-│   └── finance-data-analysis/
-├── dashboards/
-├── datasets/
-├── reports/
-└── certificates/
-```
-
-## Contact
-
-GitHub: https://github.com/shiellamu
+Visit the portfolio website through the repository's GitHub Pages deployment once enabled.
 
 ---
 
-*This portfolio is continuously being developed with practical finance and accounting projects.*
+*This portfolio is continuously evolving to showcase practical finance, accounting, analytics and reporting capabilities.*
