@@ -16,7 +16,13 @@
 
 ## Professional Portfolio
 
-A curated finance portfolio focused on **financial management, reporting, grant management, donor compliance, budgeting, controls and decision-support analysis**.
+A curated finance portfolio focused on **financial management, donor-funded programme finance, grant compliance, financial reporting, controls and decision-support analysis**.
+
+### Career focus
+
+Finance professional with experience across donor-funded global health and development programmes, including multi-country financial reporting, reconciliations, grant and partner oversight, cash monitoring, compliance and finance process improvement.
+
+**Recruiter navigation:** [Career Profile](career/) · [Selected Projects](projects/) · [CV](cv/) · [LinkedIn](linkedin/)
 
 > **Portfolio principle:** clear numbers, strong controls, useful insight.
 
