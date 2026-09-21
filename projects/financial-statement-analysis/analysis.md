@@ -1,60 +1,38 @@
-# Financial Statement Analysis
+# Financial Statement Analysis — Worked Reference
 
-**Status: Practice project — all figures are fictional.**
+**Status:** Fictional practice analysis. Recalculate independently before presenting as final evidence.
 
-This project is designed to demonstrate how a finance professional can analyse profitability, liquidity and trends using a structured financial statement dataset.
+## KPI trend
 
-## Objective
+| Period | Revenue | Gross Profit | Net Profit | Gross Margin | Operating Margin | Current Ratio | ROE |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 2025-Q1 | 125,000 | 53,000 | 17,600 | 42.4% | 19.6% | 1.42x | 18.3% |
+| 2025-Q2 | 132,000 | 57,200 | 20,500 | 43.3% | 21.2% | 1.56x | 20.3% |
+| 2025-Q3 | 141,500 | 61,400 | 23,200 | 43.4% | 22.1% | 1.67x | 21.2% |
+| 2025-Q4 | 153,000 | 68,400 | 27,900 | 44.7% | 24.1% | 1.81x | 23.4% |
+| 2026-Q1 | 161,000 | 72,100 | 30,100 | 44.8% | 24.5% | 1.85x | 23.9% |
+| 2026-Q2 | 174,000 | 80,900 | 37,100 | 46.5% | 27.1% | 1.94x | 27.1% |
 
-Use the dataset in `datasets/financial_statements.csv` to calculate key financial metrics and explain what the changes over time could mean for management.
+## Evidence-based observations
 
-## Excel-ready formulas
+- Revenue rises from 125,000 in 2025-Q1 to 174,000 in 2026-Q2.
+- Gross margin increases from 42.4% to 46.5% across the same periods.
+- Operating margin increases from 19.6% to 27.1%.
+- Current ratio rises from 1.42x to 1.94x.
+- ROE rises from 18.3% to 27.1%.
 
-Use these as a starting point and enter the formulas yourself in Excel:
+These movements indicate improving reported profitability and liquidity within this synthetic dataset. The dataset alone does not explain the operational causes.
 
-- Gross Profit = Revenue - Cost of Sales
-- Operating Profit = Gross Profit - Operating Expenses
-- Net Profit = Operating Profit - Interest Expense - Tax Expense
-- Gross Margin = Gross Profit / Revenue
-- Operating Margin = Operating Profit / Revenue
-- Current Ratio = (Cash + Receivables + Inventory) / Current Liabilities
-- ROE = Net Profit / Total Equity
+## Management questions
 
-## Your Analysis Tasks
+Investigate pricing, cost-of-sales mix, operating cost drivers, receivables collection, working-capital policy and the sustainability of the observed margin movement.
 
-1. Import the CSV into Excel.
-2. Create calculated columns for gross profit, operating profit and net profit.
-3. Calculate gross margin and operating margin.
-4. Calculate the current ratio and ROE.
-5. Compare each quarter with the previous quarter.
-6. Identify at least three meaningful trends.
-7. Write three management-focused observations in your own words.
-8. Create at least two charts showing performance over time.
-9. Add a short conclusion explaining what management should investigate further.
+## Methodology
 
-## Questions to Answer
+Gross profit = revenue − cost of sales.  
+Operating profit = gross profit − operating expenses.  
+Net profit = operating profit − interest expense − tax expense.  
+Current ratio = (cash + receivables + inventory) ÷ current liabilities.  
+ROE = net profit ÷ total equity.
 
-- Is revenue growing consistently?
-- What is happening to gross margin?
-- Are operating expenses growing faster or slower than revenue?
-- Is liquidity improving or weakening?
-- What factors could explain changes in ROE?
-- Which metric deserves the most management attention, and why?
-
-## Example Check
-
-The repository may contain worked figures as a reference during learning. Do not copy the interpretation into a final portfolio submission. Recalculate the figures yourself and document your own reasoning.
-
-## Suggested Dashboard
-
-Use KPI cards for revenue, gross profit, net profit, gross margin, operating margin and current ratio. Add revenue/net-profit and margin/liquidity trend charts.
-
-## Final Portfolio Deliverables
-
-- Excel analysis workbook
-- At least two charts
-- Short written analysis
-- One-page management summary
-- Optional screenshot or PDF export of the dashboard
-
-**Replace this fictional case with a personal or approved real-world case study when ready.**
+> All figures are fictional. No industry benchmark or accounting-policy context is provided.
