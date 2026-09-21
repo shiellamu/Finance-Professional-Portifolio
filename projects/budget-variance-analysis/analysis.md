@@ -1,69 +1,46 @@
-# Budget & Variance Analysis
+# Budget & Variance Analysis — Worked Reference
 
-**Status: Practice project — all figures are fictional.**
+**Status:** Fictional practice analysis. Recalculate independently before presenting as final evidence.
 
-Use `datasets/budget_vs_actual.csv` to practise monthly budget-to-actual analysis and management reporting.
+## Annual summary
 
-## Excel formulas
+| Measure | Budget | Actual | Variance |
+|---|---:|---:|---:|
+| Revenue | 741,000 | 756,700 | +15,700 |
+| Expenses | 500,500 | 505,900 | +5,400 |
+| Contribution | 240,500 | 250,800 | +10,300 |
 
-Enter and validate the formulas yourself:
+Revenue is 2.1% above budget; expenses are 1.1% above budget. Actual contribution is 4.3% above budget.
 
-- Revenue variance = Actual Revenue - Budget Revenue
-- Revenue variance % = Revenue Variance / Budget Revenue
-- Expense variance = Actual Expenses - Budget Expenses
-- Expense variance % = Expense Variance / Budget Expenses
-- Contribution = Actual Revenue - Actual Expenses
+## Largest absolute monthly revenue variances
 
-You may also create favourable/unfavourable flags using your own clearly documented business logic.
+| Month | Revenue variance |
+|---|---:|
+| 2026-04 | +3,200 |
+| 2026-07 | +3,100 |
+| 2026-12 | +2,800 |
 
-## Your Analysis Tasks
+## Largest absolute monthly expense variances
 
-1. Import the dataset into Excel.
-2. Calculate revenue variance and revenue variance %.
-3. Calculate expense variance and expense variance %.
-4. Calculate monthly contribution.
-5. Identify the three largest revenue deviations.
-6. Identify the three largest expense deviations.
-7. Calculate annual totals and compare budget with actual.
-8. Investigate patterns across the months.
-9. Write management commentary explaining the most material variances.
-10. Build a dashboard that communicates the results clearly.
+| Month | Expense variance |
+|---|---:|
+| 2026-06 | +1,500 |
+| 2026-09 | +1,300 |
+| 2026-11 | -1,300 |
 
-## Questions to Answer
+For expenses, positive variance means actual expense exceeded budget; whether that is favourable depends on the organisation's approved management logic.
 
-- Which months had the largest revenue variances?
-- Which expense variances require investigation?
-- Are favourable revenue movements offset by higher expenses?
-- What recurring pattern can you identify?
-- What additional information would management need before acting on a variance?
+## Management observations
 
-## Management Commentary
+- Full-year revenue exceeded budget while full-year expenses also exceeded budget.
+- The net effect is an actual contribution above budget by 10,300.
+- April, July and December show the largest positive revenue deviations.
+- June and September show notable expense overruns; November shows a notable expense underspend.
 
-Do not simply describe whether a number increased or decreased. Explain:
+The dataset does not provide volume, price, staffing, procurement or programme drivers, so causal explanations should be treated as hypotheses.
 
-**What happened → How material it is → Possible business reason → What should be investigated next.**
+## Follow-up
 
-Any explanation that is not directly supported by the dataset should be clearly described as a hypothesis rather than a fact.
+Investigate the drivers of the largest deviations, confirm whether they are one-off or recurring, and assess whether the remaining-year budget or forecast needs revision.
 
-## Dashboard
-
-Recommended visuals:
-
-- Budget vs actual revenue
-- Budget vs actual expenses
-- Monthly contribution
-- Revenue variance %
-- Expense variance %
-- Top favourable/unfavourable variances
-
-Use conditional formatting to highlight material deviations.
-
-## Final Portfolio Deliverables
-
-- Excel variance analysis
-- Dashboard
-- Variance summary table
-- Short management commentary
-- One-page executive summary
-
-**Replace this fictional case with a personal or approved real-world case study when ready.**
+> All figures are fictional.
