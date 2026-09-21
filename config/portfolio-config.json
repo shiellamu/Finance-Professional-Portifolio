@@ -1,0 +1,9 @@
+{
+  "profile": "Shiella Mudzingwa",
+  "domain": "Accounting & Financial Analysis",
+  "focus": ["Financial Accounting","Financial Analysis","Financial Reporting","Grant Management","Internal Audit","Budgeting & Forecasting","Reconciliations","Controls & Compliance","Finance Analytics"],
+  "portfolio": {"data_policy":"synthetic_or_anonymized_only","evidence_policy":"verified_only"},
+  "data_policy": {"allow_confidential_employer_data":false,"use_synthetic_or_anonymized_demo_data":true,"do_not_commit_credentials":true},
+  "portfolio_links": {"github_username":"shiellamu","linkedin":"","portfolio":""},
+  "resume_filename":"Resume_Shiella_Mudzingwa.pdf"
+}
