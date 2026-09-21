@@ -4,12 +4,40 @@
     "readme": "certificates/README.md"
   },
   {
+    "name": "contact",
+    "readme": "contact/README.md"
+  },
+  {
+    "name": "cv",
+    "readme": "cv/README.md"
+  },
+  {
     "name": "dashboards",
     "readme": "dashboards/README.md"
   },
   {
     "name": "datasets",
     "readme": null
+  },
+  {
+    "name": "domain",
+    "readme": "domain/README.md"
+  },
+  {
+    "name": "excel",
+    "readme": "excel/README.md"
+  },
+  {
+    "name": "interviews",
+    "readme": "interviews/README.md"
+  },
+  {
+    "name": "linkedin",
+    "readme": "linkedin/README.md"
+  },
+  {
+    "name": "powerbi",
+    "readme": "powerbi/README.md"
   },
   {
     "name": "projects",
