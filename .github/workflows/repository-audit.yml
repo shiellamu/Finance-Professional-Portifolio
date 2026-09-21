@@ -1,0 +1,16 @@
+name: Repository Audit
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: find .github/workflows -maxdepth 1 -type f -print | sort
+      - name: Check for obvious secrets
+        run: |
+          if grep -RInE 'AKIA[0-9A-Z]{16}|BEGIN (RSA|OPENSSH|EC|PRIVATE) KEY|ghp_[A-Za-z0-9_]{20,}|password[[:space:]]*=' . --exclude-dir=.git --exclude='*.md'; then exit 1; fi
