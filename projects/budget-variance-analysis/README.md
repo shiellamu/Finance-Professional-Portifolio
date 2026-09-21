@@ -1,14 +1,22 @@
 # Budget & Variance Analysis
 
-A practical budgeting project comparing planned results with actual performance.
+**Status:** Practice portfolio project using public-safe / fictional data.
 
-## Objectives
-- Calculate budget variances
-- Identify material deviations
-- Explain significant movements
-- Produce management recommendations based on the data
+## Purpose
+Compare budgeted and actual results, identify material movements and translate variances into management commentary.
 
-## Planned Deliverables
+## Skills demonstrated
+- Budget monitoring
+- Variance calculations
+- Materiality review
+- Root-cause commentary
+- Management reporting
+
+## Deliverables
 - Budget vs actual workbook
-- Variance dashboard
+- Variance summary
+- Dashboard
 - Management commentary
+
+## Related dataset
+See `datasets/budget_vs_actual.csv`.
