@@ -1,0 +1,6 @@
+{
+  "source_policy":{"use_public_job_boards":true,"verify_posting_before_action":true,"deduplicate_jobs":true,"retain_source_url":true},
+  "regions":["North America","Europe","EMEA","Australasia","Africa"],
+  "source_categories":["company_career_pages","major_job_boards","professional_networks","NGO_and_development_job_boards","accounting_and_finance_job_boards","government_job_portals"],
+  "safety":{"no_automatic_application_submission":true,"no_credentials_in_repository":true}
+}
