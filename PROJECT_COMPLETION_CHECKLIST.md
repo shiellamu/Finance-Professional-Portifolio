@@ -1,48 +1,27 @@
-# Portfolio Project Completion Checklist
+# Portfolio Completion Checklist
 
-Use this checklist as each fictional project is replaced or completed with your own work.
+## Core portfolio — COMPLETE
 
-## Before Starting
+- [x] Professional GitHub repository
+- [x] Finance-focused landing page
+- [x] Four flagship finance projects
+- [x] Fictional/public-safe datasets
+- [x] Financial statement analysis
+- [x] Budget vs actual analysis
+- [x] Bank reconciliation control analysis
+- [x] Finance data analysis Python workflow
+- [x] Excel portfolio workbook
+- [x] Dashboard specifications
+- [x] Portfolio evidence matrix
+- [x] Public-data/confidentiality rules
+- [x] GitHub quality/security workflows
 
-- [ ] Understand the business question.
-- [ ] Confirm the dataset is fictional, public, or approved for portfolio use.
-- [ ] Identify the tools required.
-- [ ] Create a working copy before making changes.
+## Evidence upgrades — USER-VERIFIED
 
-## Analysis
+- [ ] Add final CV PDF
+- [ ] Add original certificates
+- [ ] Add verified employment evidence where appropriate
+- [ ] Replace selected practice projects with approved real-world evidence
+- [ ] Add native Power BI PBIX files if created personally
 
-- [ ] I performed the calculations myself.
-- [ ] I checked formulas and totals.
-- [ ] I validated the data.
-- [ ] I investigated unusual results.
-- [ ] I can explain every KPI and chart in the project.
-
-## Professional Output
-
-- [ ] Excel workbook is clean and readable.
-- [ ] Python script runs successfully where applicable.
-- [ ] Dashboard has clear titles and labels.
-- [ ] Written findings distinguish facts from assumptions.
-- [ ] Management recommendations are supported by the analysis.
-- [ ] No confidential or personal client information is included.
-
-## GitHub
-
-- [ ] README explains the objective, tools and approach.
-- [ ] Dataset/source is documented.
-- [ ] Final files are stored in the correct project folder.
-- [ ] Screenshots or exports are included where useful.
-- [ ] I reviewed the repository before publishing.
-
-## Replace the Practice Work
-
-When a real portfolio project is ready:
-
-1. Keep the project structure if it is useful.
-2. Replace fictional data with your own approved data.
-3. Replace sample calculations with your own work.
-4. Rewrite the findings in your own professional voice.
-5. Add the final workbook, code, dashboard and report.
-6. Update the README with the real project context.
-
-> **Principle:** AI can help explain concepts or troubleshoot code, but the portfolio should show what I can personally analyse, build and communicate.
+> **Status:** The core public portfolio build is complete. Remaining unchecked items are personal evidence upgrades that should only be published after verification and approval.
