@@ -1,3 +1,20 @@
-# Excel Portfolio
+# Excel Finance Portfolio
 
-Add completed, non-confidential Excel workbooks. Suggested evidence: budget vs actual, bank reconciliation, financial statement analysis, cash-flow analysis and finance dashboards. Remove confidential data and verify formulas before publishing.
+A collection of public-safe Excel workbooks demonstrating practical accounting and finance skills.
+
+## Featured workbook ideas
+
+- Budget vs Actual Analysis
+- Bank Reconciliation
+- Financial Statement Analysis
+- Cash Flow Analysis
+- Grant Budget Monitoring
+- Finance KPI Dashboard
+
+## Evidence standard
+
+Each workbook should demonstrate clear formulas, controls, readable presentation and documented assumptions. Remove confidential information before publication.
+
+## Suggested structure
+
+`workbook.xlsx` → `README.md` → optional screenshots → supporting fictional/public dataset
