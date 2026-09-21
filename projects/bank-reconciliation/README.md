@@ -1,14 +1,21 @@
 # Bank Reconciliation
 
-A practical accounting workflow demonstrating the reconciliation of a cashbook to a bank statement.
+**Status:** Practice portfolio project using public-safe / fictional data.
 
-## Objectives
-- Identify timing differences
-- Detect outstanding transactions
-- Investigate discrepancies
-- Document reconciliation adjustments
+## Purpose
+Demonstrate a controlled bank-reconciliation process from cashbook and bank activity through investigation of reconciling items.
 
-## Planned Deliverables
+## Skills demonstrated
+- Reconciliation procedures
+- Exception identification
+- Timing-difference analysis
+- Adjustment documentation
+- Accounting controls
+
+## Deliverables
 - Reconciliation template
 - Exception log
 - Reconciliation summary
+
+## Related dataset
+See `datasets/bank_reconciliation.csv`.
