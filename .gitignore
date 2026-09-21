@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated reports
+career/reports/*.json
+career/reports/*.md
+docs/FILE-MANIFEST.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
