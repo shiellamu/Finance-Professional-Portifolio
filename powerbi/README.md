@@ -1,3 +1,22 @@
-# Power BI Portfolio
+# Power BI Finance Portfolio
 
-Add screenshots, PDFs or public-safe exports of completed dashboards. Suggested dashboards: budget vs actual, cash-flow monitoring, expense analysis and grant budget monitoring. Never publish confidential employer or client data.
+A collection of finance and management-reporting dashboards built with Power BI.
+
+## Featured dashboard themes
+
+- Budget vs Actual
+- Cash Flow Monitoring
+- Expense & Cost Analysis
+- Financial Performance KPIs
+- Grant Budget Monitoring
+
+## Each project should show
+
+- Business question
+- Dataset and assumptions
+- Data model / transformation approach
+- KPI definitions
+- Dashboard screenshots or public-safe export
+- Key insights
+
+Never publish confidential employer, donor, partner or client data.
