@@ -2,26 +2,20 @@
 
 © 2026 Shiella Mudzingwa. All rights reserved.
 
-This portfolio is published publicly so recruiters, employers, collaborators and professional contacts can review the work. Public visibility does **not** mean the portfolio is free to copy or republish.
+## What is protected
 
-## Protected materials
+This includes original portfolio text, project narratives, original code, portfolio layouts, documentation, public-safe datasets created for demonstration, dashboard designs, analyses, and other original materials in this repository.
 
-This notice applies to the portfolio's original:
+## What is not granted
 
-- Website design and written content
-- Finance case studies and analysis
-- Templates, models and original calculations
-- Dashboard concepts and presentation
-- Documentation and portfolio structure
-- Original graphics and presentation materials
-- CV and professional-profile materials where applicable
+Public visibility does not mean public-domain or unrestricted reuse. Do not copy substantial portions of this portfolio into another portfolio, CV, website, application, commercial product or training material and represent the work as your own.
 
-## Attribution and reuse
+GitHub's interface may allow viewing, downloading and forking because the repository is public. Those platform functions do not transfer copyright ownership.
 
-Do not copy substantial portions of this portfolio, remove attribution, republish the work, or represent the work as your own.
+## Certificates and credentials
 
-If you want to reference or reuse material, request written permission first at **shiellamu@gmail.com**.
+Certificates and credential evidence are provided for professional presentation only. Do not alter, reproduce, or use credential evidence deceptively.
 
-## Important limitation
+## Permission
 
-No public website can technically prevent a visitor from viewing source code or taking screenshots. The repository therefore uses copyright notices, clear ownership, restrictive licensing and security controls as practical protection rather than claiming that copying is technically impossible.
+For licensing or reuse permission, contact **shiellamu@gmail.com**.
