@@ -1,0 +1,24 @@
+name: Portfolio feedback
+description: Suggest a factual, professional or usability improvement to the portfolio
+title: "[Portfolio feedback]: "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the portfolio. Please do not include confidential employer, donor, partner, financial or personal information.
+  - type: textarea
+    id: area
+    attributes:
+      label: Area for improvement
+      description: Which page, project or section could be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Describe the issue or suggestion clearly.
+    validations:
+      required: true

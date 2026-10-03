@@ -1,0 +1,16 @@
+name: Portfolio Quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash setup-tools/portfolio-complete-setup.sh --check-only
+      - run: bash verify-portfolio.sh
