@@ -1,0 +1,43 @@
+name: Finance Portfolio Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate portfolio structure
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -d projects
+          test -d reports
+          test -d dashboards
+          test -d excel
+
+      - name: Scan for common secrets and sensitive identifiers
+        run: |
+          set -euo pipefail
+          ! grep -RInE             'AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,}|BEGIN .*PRIVATE KEY'             . --exclude-dir=.git --exclude-dir=.github
+
+          ! grep -RInE             '(^|[^0-9])(national[[:space:]_-]?id|passport[[:space:]_-]?number|bank[[:space:]_-]?account|routing[[:space:]_-]?number|tax[[:space:]_-]?number|swift[[:space:]_-]?code)([^a-zA-Z0-9]|$)'             . --exclude-dir=.git --exclude-dir=.github
+
+      - name: Check markdown links to core project directories
+        run: |
+          set -euo pipefail
+          test -d projects/01-financial-performance-analysis
+          test -d projects/02-budget-vs-actual-analysis
+          test -d projects/03-donor-grant-financial-management
+          test -d projects/04-cash-flow-and-funding-analysis
+          test -d projects/05-finance-dashboard-model
+          test -d projects/06-finance-manager-management-report
