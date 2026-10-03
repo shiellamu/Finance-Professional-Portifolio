@@ -1,0 +1,205 @@
+name: Finance Portfolio One-Time Setup
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: Type SETUP-FINANCE-PORTFOLIO to begin
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    if: ${{ inputs.confirmation == 'SETUP-FINANCE-PORTFOLIO' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify GitHub identity
+        env:
+          GH_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$GH_TOKEN" || {
+            echo "::error::GH_ADMIN_TOKEN secret is required."
+            exit 1
+          }
+
+          OWNER="$(gh api user --jq .login)"
+          test "$OWNER" = "shiellamu" || {
+            echo "::error::This workflow must be authorized by the Shiella Mudzingwa GitHub account."
+            exit 1
+          }
+
+      - name: Create private development repository if needed
+        env:
+          GH_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          REPO="shiellamu/Finance-Professional-Portifolio-dev"
+
+          if gh api "repos/$REPO" >/dev/null 2>&1; then
+            echo "Development repository already exists."
+          else
+            echo "Development repository not found. Creating it..."
+            gh api --method POST user/repos               -f name="Finance-Professional-Portifolio-dev"               -f description="Private development repository for Shiella Mudzingwa's finance and accounting portfolio."               -F private=true
+          fi
+
+      - name: Copy current production portfolio to development
+        env:
+          GH_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          rm -rf /tmp/prod /tmp/dev
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio.git" /tmp/prod
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git" /tmp/dev
+
+          cd /tmp/dev
+
+          if git rev-parse --verify HEAD >/dev/null 2>&1; then
+            echo "Development repository already contains commits."
+          else
+            cp -a /tmp/prod/. .
+            rm -rf .git
+            git init
+            git branch -M main
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git"
+            git add .
+            git -c user.name="Shiella Mudzingwa" \
+                -c user.email="331595229+shiellamu@users.noreply.github.com" \
+                commit -m "Initialize private finance portfolio development"
+            git push -u origin main
+          fi
+
+      - name: Add finance quality and security workflows
+        env:
+          GH_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          rm -rf /tmp/dev
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git" /tmp/dev
+          cd /tmp/dev
+
+          mkdir -p .github/workflows
+
+          cat > .github/workflows/finance-quality.yml <<'EOF'
+          name: Finance Portfolio Quality
+
+          on:
+            push:
+              branches: [main]
+            pull_request:
+              branches: [main]
+            workflow_dispatch:
+
+          permissions:
+            contents: read
+
+          jobs:
+            quality:
+              runs-on: ubuntu-latest
+              steps:
+                - uses: actions/checkout@v4
+
+                - name: Validate portfolio structure
+                  run: |
+                    set -euo pipefail
+                    test -f README.md
+                    test -d projects
+                    test -d reports
+                    test -d dashboards
+                    test -d excel
+
+                - name: Scan for secrets and private accounting data
+                  run: |
+                    set -euo pipefail
+                    ! grep -RInE \
+                      'AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,}|BEGIN .*PRIVATE KEY' \
+                      . --exclude-dir=.git --exclude-dir=.github
+
+                    ! grep -RInE \
+                      '(^|[^0-9])(national[[:space:]_-]?id|passport[[:space:]_-]?number|bank[[:space:]_-]?account|routing[[:space:]_-]?number|tax[[:space:]_-]?number|swift[[:space:]_-]?code)([^a-zA-Z0-9]|$)' \
+                      . --exclude-dir=.git --exclude-dir=.github
+          EOF
+
+          cat > .github/workflows/security-scan.yml <<'EOF'
+          name: Finance Portfolio Security Scan
+
+          on:
+            push:
+              branches: [main]
+            pull_request:
+              branches: [main]
+            workflow_dispatch:
+
+          permissions:
+            contents: read
+
+          jobs:
+            scan:
+              runs-on: ubuntu-latest
+              steps:
+                - uses: actions/checkout@v4
+
+                - name: Secret-pattern scan
+                  run: |
+                    set -euo pipefail
+                    ! grep -RInE \
+                      'AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,}|BEGIN .*PRIVATE KEY' \
+                      . --exclude-dir=.git --exclude='security-scan.yml' --exclude='finance-quality.yml'
+
+                - name: Private accounting-data scan
+                  run: |
+                    set -euo pipefail
+                    ! grep -RInE \
+                      '(^|[^0-9])(national[[:space:]_-]?id|passport[[:space:]_-]?number|bank[[:space:]_-]?account|routing[[:space:]_-]?number|tax[[:space:]_-]?number|swift[[:space:]_-]?code)([^a-zA-Z0-9]|$)' \
+                      . --exclude-dir=.git --exclude='security-scan.yml' --exclude='finance-quality.yml'
+          EOF
+
+          cat > PUBLIC-SOURCE-OF-TRUTH.md <<'EOF'
+          # Public Source of Truth
+
+          `shiellamu/Finance-Professional-Portifolio` is the public recruiter-facing release repository.
+
+          `shiellamu/Finance-Professional-Portifolio-dev` is the private development repository.
+
+          Changes should be developed and validated privately before deliberate publication to production.
+          EOF
+
+          cat > PRODUCTION-PUBLISH-POLICY.md <<'EOF'
+          # Production Publication Policy
+
+          ## Model
+
+          Private development → automated validation → deliberate publication → public production.
+
+          ## Rules
+
+          - Develop in `Finance-Professional-Portifolio-dev`.
+          - Keep client, donor, employee, bank, tax and other confidential accounting data private.
+          - Use anonymised/sample data in public portfolio evidence.
+          - Run quality and security checks before publication.
+          - Publish deliberately; never use production as the development workspace.
+          EOF
+
+          git add .
+          if ! git diff --cached --quiet; then
+            git -c user.name="Shiella Mudzingwa" \
+                -c user.email="331595229+shiellamu@users.noreply.github.com" \
+                commit -m "Establish finance portfolio development governance"
+            git push origin main
+          fi
+
+      - name: Report completion
+        run: |
+          echo "Finance portfolio development environment is ready."
+          echo "Private repository: https://github.com/shiellamu/Finance-Professional-Portifolio-dev"
+          echo
+          echo "Existing public production was preserved."
+          echo
+          echo "Next step: configure production rulesets and the controlled cross-repository publication workflow."
