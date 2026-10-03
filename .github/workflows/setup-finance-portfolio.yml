@@ -39,12 +39,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          if gh repo view shiellamu/Finance-Professional-Portifolio-dev >/dev/null 2>&1; then
+          REPO="shiellamu/Finance-Professional-Portifolio-dev"
+
+          if gh api "repos/$REPO" >/dev/null 2>&1; then
             echo "Development repository already exists."
           else
-            gh repo create shiellamu/Finance-Professional-Portifolio-dev \
-              --private \
-              --description "Private development repository for Shiella Mudzingwa's finance and accounting portfolio."
+            echo "Development repository not found. Creating it..."
+            gh api --method POST user/repos               -f name="Finance-Professional-Portifolio-dev"               -f description="Private development repository for Shiella Mudzingwa's finance and accounting portfolio."               -F private=true
           fi
 
       - name: Copy current production portfolio to development
@@ -54,8 +55,8 @@ jobs:
           set -euo pipefail
 
           rm -rf /tmp/prod /tmp/dev
-          git clone https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio.git /tmp/prod
-          git clone https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git /tmp/dev
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio.git" /tmp/prod
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git" /tmp/dev
 
           cd /tmp/dev
 
@@ -66,7 +67,7 @@ jobs:
             rm -rf .git
             git init
             git branch -M main
-            git remote add origin https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git"
             git add .
             git -c user.name="Shiella Mudzingwa" \
                 -c user.email="331595229+shiellamu@users.noreply.github.com" \
@@ -81,7 +82,7 @@ jobs:
           set -euo pipefail
 
           rm -rf /tmp/dev
-          git clone https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git /tmp/dev
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/shiellamu/Finance-Professional-Portifolio-dev.git" /tmp/dev
           cd /tmp/dev
 
           mkdir -p .github/workflows
@@ -197,10 +198,8 @@ jobs:
       - name: Report completion
         run: |
           echo "Finance portfolio development environment is ready."
-          echo "Private repository:"
-          echo "https://github.com/shiellamu/Finance-Professional-Portifolio-dev"
+          echo "Private repository: https://github.com/shiellamu/Finance-Professional-Portifolio-dev"
           echo
           echo "Existing public production was preserved."
           echo
-          echo "Next step: configure production rulesets and the controlled"
-          echo "cross-repository publication workflow."
+          echo "Next step: configure production rulesets and the controlled cross-repository publication workflow."
