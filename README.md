@@ -4,7 +4,7 @@
 
 ### Finance Professional · ACCA Member · MBA
 
-**Financial Management · Accounting · Donor Compliance · Reporting · Analytics**
+**Financial Management · Grant & Donor Compliance · Financial Reporting · Forecasting · Analytics**
 
 [![Live Portfolio](https://img.shields.io/badge/LIVE%20PORTFOLIO-176447?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shiellamu.github.io/Finance-Professional-Portifolio/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shiella-mudzingwa)
@@ -16,33 +16,41 @@
 
 ## Professional Portfolio
 
-A curated finance portfolio focused on **financial management, donor-funded programme finance, grant compliance, financial reporting, controls and decision-support analysis**.
-
-### Career focus
+A curated finance portfolio focused on **financial management, donor-funded programme finance, grant compliance, financial reporting, controls, forecasting and management decision support**.
 
 Finance professional with experience across donor-funded global health and development programmes, including multi-country financial reporting, reconciliations, grant and partner oversight, cash monitoring, compliance and finance process improvement.
 
-**Recruiter navigation:** [Career Profile](career/) · [Selected Projects](projects/) · [CV](cv/) · [LinkedIn](linkedin/)
-
 > **Portfolio principle:** clear numbers, strong controls, useful insight.
 
-### What you'll find here
+## Featured Finance Case Studies
 
-| Area | Focus |
+| Project | Demonstrates |
 |---|---|
-| **Financial Management** | Reporting, close management, cash reporting and oversight |
-| **Grant & Donor Compliance** | Grant controls, partner reviews and donor requirements |
-| **Analysis & Planning** | Budgeting, variance analysis, forecasting and management reporting |
-| **Controls & Audit** | Reconciliations, fixed assets, audit readiness and internal controls |
-| **Excel & Power BI** | Dashboards, financial models and decision-support reporting |
-| **Python & Data** | Structured finance data, KPIs, analysis and visualisation |
+| [01 — Financial Performance Analysis](projects/01-financial-performance-analysis/) | Budget vs actual, variance drivers and management actions |
+| [02 — Budget vs Actual Management Report](projects/02-budget-vs-actual-analysis/) | Management commentary, forecast implications and action tracking |
+| [03 — Donor Grant Financial Management](projects/03-donor-grant-financial-management/) | Grant controls, donor compliance and partner financial oversight |
+| [04 — Cash Flow & Funding Analysis](projects/04-cash-flow-and-funding-analysis/) | Liquidity forecasting, funding pressure and payment timing |
+| [05 — Finance Dashboard Model](projects/05-finance-dashboard-model/) | KPI design, dashboard architecture and decision support |
+| [06 — Finance Manager Management Report](projects/06-finance-manager-management-report/) | Leadership reporting, risk, controls and decisions required |
 
-## Selected Work
+## Core capabilities
 
-- **Financial Statement Analysis** — performance, liquidity, profitability and trend analysis
-- **Budget vs Actual** — variance analysis and management-focused commentary
-- **Bank Reconciliation** — reconciliation controls and exception identification
-- **Finance Data Analysis** — structured finance data, KPIs and visualisation
+- Financial reporting and management accounts
+- Budgeting, forecasting and variance analysis
+- Grant and donor financial management
+- Partner financial oversight
+- Cash-flow and funding analysis
+- Reconciliations, controls and audit readiness
+- Finance process improvement
+- KPI dashboards and decision-support reporting
+
+## Portfolio design
+
+The portfolio uses **synthetic or anonymised information**. No confidential employer, donor, partner or employee data is intentionally included.
+
+The case studies are structured to show the progression from:
+
+**Financial data → analysis → interpretation → risk → management action → leadership decision**
 
 ## Credentials
 
@@ -50,17 +58,15 @@ Finance professional with experience across donor-funded global health and devel
 - **MBA — Accounting** — National University of Science and Technology
 - **Bachelor of Accountancy** — Midlands State University
 
-## Portfolio Structure
+## Recruiter navigation
 
-`career/` · `certificates/` · `cv/` · `dashboards/` · `excel/` · `linkedin/` · `powerbi/` · `projects/` · `reports/`
+[Career Profile](career/) · [Selected Projects](projects/) · [CV](cv/) · [LinkedIn](linkedin/)
 
 ## Connect
 
-**Professional enquiries, collaborations and finance-related discussions:**
-
 **Email:** [shiellamu@gmail.com](mailto:shiellamu@gmail.com)  
 **LinkedIn:** [Shiella Mudzingwa](https://www.linkedin.com/in/shiella-mudzingwa)  
-**Website:** [shiellamu.github.io/Finance-Professional-Portifolio](https://shiellamu.github.io/Finance-Professional-Portifolio/)
+**Website:** [Live Finance Portfolio](https://shiellamu.github.io/Finance-Professional-Portifolio/)
 
 ---
 
